@@ -1,6 +1,8 @@
 @extends('base')
 
 @section('content')
+
+
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -53,15 +55,14 @@
     </li>
     <li class="honeycomb-cell">
         <img class="honeycomb-cell_img" src="{{ asset('imgs/1.png')}}">
-        <div class="honeycomb-cell_title">J’AI BESOIND AIDE</div>
-    </li>
+        <div class="honeycomb-cell_title">J’AI BESOIN D'AIDE</div>
     <li class="honeycomb-cell">
         <img class="honeycomb-cell_img" src="img/work4.jpg">
         <div class="honeycomb-cell_title">calendrier</div>
     </li>
     <li class="honeycomb-cell">
         <img class="honeycomb-cell_img" src="img/work5.jpg">
-        <div class="honeycomb-cell_title">JE DÉSIR GRANDIR MA FOI<small></small></div>
+        <div class="honeycomb-cell_title">JE DÉSIRe GRANDIR MA FOI<small></small></div>
     </li>
     <li class="honeycomb-cell">
         <img class="honeycomb-cell_img" src="img/work06.jpg">
